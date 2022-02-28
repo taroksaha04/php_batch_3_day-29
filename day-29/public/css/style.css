@@ -1,0 +1,43 @@
+.my-caption
+{
+    background: rgba(0,0,0,0.5);
+    bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.h-200{ height: 200px; }
+.h-50{ height: 50px!important;  }
+.h-550{ height: 550px; }
+.h-250{ height: 250px; }
+.h-157{ height: 157px;}
+.h-165{ height: 165px;}
+.p-size{font-size: 14px;}
+
+@media screen and (max-width: 700px)
+{
+    .menu-position
+    {
+        position: relative;
+        bottom: 50px;
+        left:430px;
+    }
+
+}
+@media screen and (max-width: 600px)
+{
+    .menu-position
+    {
+        position: relative;
+        bottom: 50px;
+        left:390px;
+    }
+    .right-position{
+        float: none!important;
+        margin-left: 35%;
+    }
+    .left-position{
+        margin-left: 13%;
+    }
+
+}
